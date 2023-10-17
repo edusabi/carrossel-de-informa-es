@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+}
+
+body{
+    background-color: hsl(210, 36%, 96%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tema{
+    text-align: center;
+    letter-spacing: .2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.326);
+    height: 75vh;
+    width: 700px;
+}
+
+.container .foto{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 9px -5px rgb(153, 255, 0);
+}
+
+img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.aspas{
+    background-color: rgb(153, 255, 0);
+    padding: .5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    position: absolute;
+}
+
+.foto{
+    margin-bottom: .4rem;
+}
+
+.nome{
+    margin-bottom: .5rem;
+}
+
+.profissao{
+    margin-bottom: .8rem;
+}
+
+.texto{
+    width: 75%;
+    height: 15vh;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: .2rem;
+}
+
+.icon{
+    margin-bottom: 1rem;
+}
+
+i{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.passa{
+    background-color: rgb(153, 255, 0);
+    padding: .3rem 1rem;
+    color: #000;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 1px;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.passa:active{
+    color: #6a6565;
+    box-shadow: -2px -2px 1px black;
+}
+
+
+
+
+
+
+
